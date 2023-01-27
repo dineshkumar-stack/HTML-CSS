@@ -1,0 +1,61 @@
+h4{
+    color :rgb(20, 0, 0);
+    font-style: normal;
+    font-family: cursive;
+    font-size:3ch;
+}
+h5{
+    color :rgb(20, 0, 0);
+    font-style: normal;
+    font-family: cursive;
+    font-size:2ch;
+}
+
+p{
+    color :rgb(8, 5, 62);
+    font-style: normal;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+tr{
+    color :rgb(123, 71, 3);
+    font-style: normal;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+#Firstone{
+    color :rgb(212, 13, 146);
+    font-style: normal;
+    font-family:Verdana,
+
+
+}
+
+table tr{
+    color :rgb(4, 126, 144);
+    font-style: normal;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+ 
+
+}
+
+#Formstyle{
+
+    text-align: center;
+    font-style: normal;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3ch;
+
+}
+
+#Formstyle label[for = "First"] {
+    color :rgb(212, 13, 146);
+
+}
+
+#Formstyle {
+    color :rgb(5, 74, 151);
+
+}
