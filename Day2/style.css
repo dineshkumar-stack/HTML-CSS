@@ -30,7 +30,7 @@ tr{
     font-style: normal;
     font-family:Verdana,
 
-
+ 
 }
 
 table tr{
@@ -47,15 +47,50 @@ table tr{
     font-style: normal;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 3ch;
-
+    background: linear-gradient(
+        130deg,#ff9041,
+        #fe1953 40.07%,
+        #35b1ba 76.05%
+    );
 }
 
-#Formstyle label[for = "First"] {
-    color :rgb(212, 13, 146);
+form button {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    font-family: inherit;
+    display: inline-block;
+    text-align: center;
+    user-select: none;
+    border: 1px solid #ff9041;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    color: rgb(255, 255, 255);
+    background-color: #34323f;
+    cursor: pointer;
+  }
 
-}
+  form label {
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    line-height: 1;
+  }
 
-#Formstyle {
-    color :rgb(5, 74, 151);
-
-}
+  form input {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    font-family: inherit;
+    display: inline-block;
+    text-align: center;
+    user-select: none;
+    border: 1px solid #ff9041;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1;
+    border-radius: .20rem;
+    color: rgb(2, 2, 2);
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+ 
