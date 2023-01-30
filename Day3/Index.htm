@@ -1,13 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Day 3</title>
 </head>
-<body>
-   <script src="script.js"></script>
+<style>
+form{
+        font-family: system-ui;
+        border-radius: 40px;
+        border: 20px transparent #0667f8;
+        text-align: center;
+        font-size: 1.2rem;
+        background: linear-gradient(
+        130deg,#a3d5f7,
+        #ff96b0 40.07%,
+        #75f6ff 76.05%
+    );
     
+}
+
+a:hover{
+    color: aquamarine;
+}
+
+form button {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    font-family: inherit;
+    display: inline-block;
+    text-align: center;
+    user-select: none;
+    border: 1px solid #a0c6ff;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 20px;
+    border-radius: .25rem;
+    color: rgb(255, 255, 255);
+    background-color: #5439ef;
+    cursor: pointer;
+  }
+/* div{
+            border: 2px solid red;
+            padding: 35px;
+            margin: 10px;
+        } */
+
+        a:visited{
+            color: rgb(49, 196, 66);
+        }
+
+        a:link{
+            color: rgb(47, 20, 200);
+        }
+
+        a:hover{
+            color: rgb(19, 191, 200);
+        }
+
+        a:active{
+            color: rgb(223, 162, 20);
+
+        }
+
+        button:active{
+            color: rgb(223, 162, 20);
+
+        }
+
+        button:hover{
+            color: rgb(214, 37, 37);
+        }
+
+        ul:hover{
+            color: rgb(214, 37, 37);
+        }
+
+        ul:active{ /* when selected */
+            color: rgb(214, 211, 37);
+        }
+        p{
+            border: 2px solid blue;
+            padding: 45px;
+            /* margin: top right bottom left; */
+            margin: 30px 20px 10px 40px;
+        }
+
+        .parent{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(12, 103, 193);
+            position: relative;
+        }
+        .child-1,.child-2,.child-3{
+            width: 50px;
+            height: 50px;
+        }
+
+        /* fixed - normal to viewport */
+        .child-1{
+            background-color: red;
+            position: fixed;
+            /* top: 10px; */
+            bottom: 10px;
+            right: 10px;
+            border-radius: 5px;
+            border-radius: 50%;
+        }
+        /* relative - normal to point where it was creasted */
+        .child-2{
+            background-color: rgb(0, 251, 255);
+            position: relative;
+            top: 40px;
+            left: 60px;
+        }
+        /* absolute - normal to the parent */
+        .child-3{
+            background-color: rgb(26, 255, 0);
+            position: absolute;
+            top: 30px;
+            left: 30px;
+        }
+
+</style>
+<body>
+    <script src="script.js"></script>
+    <h3>Day 3</h3>
+
+    <ul>
+        <li>pseduo class</li>
+        <li>Box-model</li>
+        <li>position</li>
+        <li>flex box</li>
+        <li>gradient</li>
+    </ul>
+
+    <h3>Form</h3>
+    <form class="child-4" action="https://www.google.com">
+        <label for="First">First Name</label>
+        <input type="First" placeholder="First Name">
+        <label for="">Last Name</label>
+        <input type="text" placeholder="Last Name"><br><br>
+        <label for="">Enter Your Email</label><br>
+        <input type="email" placeholder="Example@gmail.com" required><br><br>
+        <label for="">Password</label><br>
+        <input type="password" placeholder="Password" required minlength="10"><br><br>
+        <label for="">Number</label><br>
+        <input type="number" placeholder="Mobile Number" required minlength="10"><br><br>
+        <button type="submit">Submit</button>
+    </form><br>
+
+    <a href="https://www.google.com" target="_blank">Google new tab</a><br>
+    <a href="https://www.google.com" target="_self">Google self</a>
 </body>
+
+</html>
+
+</body>
+
 </html>
