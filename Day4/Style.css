@@ -1,0 +1,91 @@
+.parent{
+    display: flex;    /* by default will align in row wise */
+    background-color: black;
+    width: 750px;
+    height: 200px;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    align-items: center;
+    /* align-items: flex-end; */
+    /* align-items: stretch; */
+    /* flex-wrap:wrap; */
+    background-image: linear-gradient(
+        to left,
+        rgb(209, 187, 141),rgb(147, 240, 236),rgb(173, 217, 244)
+    );
+    position:relative;
+    z-index: 1;
+}
+
+.child{
+    height: 50px;
+    width: 50px;
+    border-radius: 7px;
+    background-color: radial-gradient(black,white,transparent);
+    position:relative;
+}
+
+.child-1{
+    /* orange */
+    height: 100px;
+    width: 100px;
+    left: 05px;
+    position:relative;
+    border-radius: 35px;
+    z-index: -1;
+
+}
+
+.child-2{
+    /* yellow */
+    height: 50px;
+    width: 50px;
+    position:relative;
+    border-radius: 15px;
+    left: -60px;
+    bottom: -10px;
+    z-index: -1;
+
+}
+
+.child-1 p{
+    text-align:center;
+  
+}
+
+.parent2{
+    /* Mango detail */
+    display: flex;
+
+}
+
+.mango{
+    flex: 0.8;
+}
+
+.mango-passed{
+    flex: 1;
+}
+
+.drop-down ul{
+    display: none;
+  
+}
+
+.drop-down:hover ul{
+    display:block;
+   
+}
+
+.drop-down,.drop-down p{
+    display: inline-block;
+
+}
+.OverFlow{
+    border: 2px solid red;
+    /* overflow:visible; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+}
+
+
