@@ -1,0 +1,43 @@
+.parentrow1{
+        background-color: rgb(247, 165, 199);
+        border-radius: 7px;
+        /* display: grid; */
+        /* grid-template-columns: 15% 15% 30% 40%; */
+}
+
+
+
+.child-11{
+    background-color: rgb(245, 101, 93);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.C1{
+    background-color: rgb(79, 7, 195);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.C2{
+    background-color: rgb(8, 174, 141);
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+.child-12{
+    background-color: rgb(210, 240, 86);
+    border-radius: 8px;
+    text-align: center;
+}
+.child-13{
+    background-color: rgb(243, 47, 70);
+    border-radius: 8px;
+    text-align: center;
+}
+.child-14{
+    background-color: rgb(121, 68, 236);
+    border-radius: 8px;
+    text-align: center;
+}
